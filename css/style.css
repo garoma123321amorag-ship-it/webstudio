@@ -111,13 +111,11 @@
     }
 
     .doing-title {
-
-
-        font-weight: 700;
-        font-size: 36px;
-        letter-spacing: 0.03em;
-        text-align: center;
-        color: #212121;
+font-weight: 700;
+font-size: 36px;
+letter-spacing: 0.03em;
+text-align: center;
+color: #212121;
     }
 
     .doing-title2 {
@@ -149,14 +147,13 @@
     }
 
     .register-title {
-
-        font-weight: 900;
-        font-size: 44px;
-        line-height: 136%;
-        letter-spacing: 0.06em;
-        text-transform: uppercase;
-        text-align: center;
-        color: #f3f3f3;
+font-weight: 900;
+font-size: 44px;
+line-height: 136%;
+letter-spacing: 0.06em;
+text-transform: uppercase;
+text-align: center;
+color: #fff;
     }
 
     .register-button {
@@ -215,13 +212,6 @@
         color: #fff;
     }
 
-    .header-lin {
-        font-weight: 500;
-        font-size: 14px;
-        letter-spacing: 0.02em;
-        color: #2196f3;
-    }
-
     .header-link {
         font-weight: 500;
         font-size: 14px;
@@ -236,10 +226,15 @@
         color: #757575;
     }
 
-    .header-lin:hover {
-        color: #212121;
-    }
 
     .header-link:hover {
         color: #2196f3;
+    }
+    .team-title2{
+font-family: var(--font-family);
+font-weight: 700;
+font-size: 36px;
+letter-spacing: 0.03em;
+text-align: center;
+color: #212121;
     }

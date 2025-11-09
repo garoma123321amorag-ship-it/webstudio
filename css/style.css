@@ -238,3 +238,16 @@ letter-spacing: 0.03em;
 text-align: center;
 color: #212121;
     }
+    h1, h2, h3, p, button {
+    margin: 0;
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+a {
+    text-decoration: none;
+}

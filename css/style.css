@@ -2,14 +2,18 @@
         font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
 
     }
-    .conteiner{
-width: 1110px;
-padding-left: 15px;
-padding-right: 15px;
-    margin-left: auto;
-    margin-right: auto;
-    outline: solid red;
+
+    .conteiner {
+        width: 1200px;
+        padding-left: 15px;
+        padding-right: 15px;
+        margin-left: auto;
+        margin-right: auto;
+        /* outline: solid red; */
     }
+
+
+
 
     .register-text {
         font-weight: 500;
@@ -32,15 +36,42 @@ padding-right: 15px;
 
     }
 
-    .register-button {
+    .list-header {
+        align-items: center;
+        gap: 50px;
+        display: flex;
 
+    }
+
+    .header-list2 {
+        align-items: center;
+        gap: 50px;
+        display: flex;
+        margin-left: auto;
+        margin-bottom: 24px;
+        margin-top: 25px;
+    }
+
+    .nav-header {
+        display: flex;
+
+    }
+
+    .about-header {
         font-weight: 700;
-        font-size: 16px;
-        line-height: 187%;
-        letter-spacing: 0.06em;
-        text-align: center;
-        color: #fff;
+        font-size: 26px;
+        letter-spacing: 0.03em;
+    }
 
+    .header-lin {
+        margin-left: 90px;
+    }
+
+    .register-button {
+        border: #2196f3;
+        border-radius: 4px;
+        padding: 10px 32px;
+        border-style: none;
     }
 
 
@@ -51,7 +82,9 @@ padding-right: 15px;
         letter-spacing: 0.03em;
         text-align: center;
         color: #212121;
-
+        margin-bottom: 30px;
+        height: 270px;
+        width: 260px;
     }
 
     .header-gmail {
@@ -89,14 +122,30 @@ padding-right: 15px;
     }
 
     .team-text {
-
-
+        margin-bottom: 30px;
         font-weight: 400;
         font-size: 16px;
         letter-spacing: 0.03em;
         text-align: center;
         color: #757575;
+        margin-top: 10px;
 
+    }
+
+    .team {
+        background-color: #fff;
+    }
+
+    .team-list {
+        display: flex;
+        gap: 30px;
+        justify-content: center
+    }
+
+    .team-section {
+        background-color: #F5F4FA;
+        padding-bottom: 94px;
+        padding-top: 94px;
     }
 
     .one.fivesection-tex {
@@ -119,11 +168,12 @@ padding-right: 15px;
     }
 
     .doing-title {
-font-weight: 700;
-font-size: 36px;
-letter-spacing: 0.03em;
-text-align: center;
-color: #212121;
+        font-weight: 700;
+        font-size: 36px;
+        letter-spacing: 0.03em;
+        text-align: center;
+        color: #212121;
+        margin-bottom: 50px;
     }
 
     .doing-title2 {
@@ -135,6 +185,20 @@ color: #212121;
         text-align: center;
         color: #ffffff;
 
+    }
+
+    .about-title {
+        margin-bottom: 10px;
+    }
+
+    .about-section {
+        padding-top: 94px;
+        padding-bottom: 94px
+    }
+
+    .doing-list {
+        display: flex;
+        gap: 30px;
     }
 
     .end-webstudio {
@@ -150,18 +214,17 @@ color: #212121;
         font-weight: 700;
         font-size: 26px;
         letter-spacing: 0.03em;
-        color: #2196f3;
-
     }
 
     .register-title {
-font-weight: 900;
-font-size: 44px;
-line-height: 136%;
-letter-spacing: 0.06em;
-text-transform: uppercase;
-text-align: center;
-color: #fff;
+        font-weight: 900;
+        font-size: 44px;
+        line-height: 136%;
+        letter-spacing: 0.06em;
+        text-transform: uppercase;
+        text-align: center;
+        color: #ffffff;
+        max-width: 696px;
     }
 
     .register-button {
@@ -171,15 +234,26 @@ color: #fff;
         letter-spacing: 0.06em;
         text-align: center;
         color: #fff;
-        width: 216px;
-        height: 50px;
         box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.15);
         background: #2196f3;
+    }
 
+    .register-section {
+        background-color: #2F303A;
+        padding-top: 200px;
+        padding-bottom: 200px;
+    }
+
+    .register-conteiner {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 30px;
     }
 
     .web {
         color: #2196f3;
+        margin-bottom: 25px;
     }
 
     .about-tex {
@@ -188,7 +262,12 @@ color: #fff;
         line-height: 171%;
         letter-spacing: 0.03em;
         color: #757575;
+    }
 
+    .about-list {
+        display: flex;
+        align-items: flex-start;
+        gap: 30px;
     }
 
     .about-text {
@@ -197,6 +276,10 @@ color: #fff;
         letter-spacing: 0.03em;
         text-transform: uppercase;
         color: #212121;
+    }
+
+    .doing-section {
+        padding-bottom: 94px;
     }
 
     .end-tex {
@@ -208,12 +291,34 @@ color: #fff;
         color: #757575;
     }
 
+    .end-footer {
+        background-color: #2F303A;
+        padding-top: 70px;
+        padding-bottom: 70px;
+    }
+
     .end-number {
         font-weight: 400;
         font-size: 14px;
         line-height: 171%;
         letter-spacing: 0.03em;
         color: #757575;
+    }
+
+    .end-studio {
+        font-weight: 700;
+        font-size: 26px;
+        letter-spacing: 0.03em;
+        color: #fff;
+    }
+
+    .end-address {
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 171%;
+        letter-spacing: 0.03em;
+        color: #fff;
+        font-style: normal;
     }
 
     .studio {
@@ -238,11 +343,12 @@ color: #fff;
     .header-link:hover {
         color: #2196f3;
     }
-    .team-title2{
-font-family: var(--font-family);
-font-weight: 700;
-font-size: 36px;
-letter-spacing: 0.03em;
-text-align: center;
-color: #212121;
+
+    .team-title2 {
+        font-family: var(--font-family);
+        font-weight: 700;
+        font-size: 36px;
+        letter-spacing: 0.03em;
+        text-align: center;
+        color: #212121;
     }

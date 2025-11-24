@@ -100,16 +100,42 @@
         letter-spacing: 0.03em;
         color: rgba(255, 255, 255, 0.6);
     }
-    h1, h2, h3, p {
-    margin: 0;
-}
+    .end-studio {
+        font-weight: 700;
+        font-size: 26px;
+        letter-spacing: 0.03em;
+        color: #fff;
+        font-family: "Raleway";
+        margin-bottom: 20px;
+    }
+    
+    .end-address {
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 171%;
+        letter-spacing: 0.03em;
+        color: #fff;
+        font-style: normal;
+        margin-bottom: 9px;
+    }
+        .end-number {
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 171%;
+        letter-spacing: 0.03em;
+        color: #757575;
+    }
+    .end-footer {
+        background-color: #2F303A;
+        padding-top: 70px;
+        padding-bottom: 70px;
+    }
+    .end-tex {
 
-ul {
-    list-style: none;
-    padding: 0;
-    margin: 0;
-}
-
-a {
-    text-decoration: none;
-}
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 171%;
+        letter-spacing: 0.03em;
+        color: #757575;
+        margin-bottom: 9px;
+    }

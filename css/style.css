@@ -14,7 +14,6 @@
 
 
 
-
     .register-text {
         font-weight: 500;
         font-size: 14px;
@@ -293,6 +292,7 @@
         line-height: 171%;
         letter-spacing: 0.03em;
         color: #757575;
+        margin-bottom: 9px;
     }
 
     .end-footer {
@@ -315,6 +315,7 @@
         letter-spacing: 0.03em;
         color: #fff;
         font-family: "Raleway";
+        margin-bottom: 20px;
     }
 
     .end-address {
@@ -324,6 +325,7 @@
         letter-spacing: 0.03em;
         color: #fff;
         font-style: normal;
+        margin-bottom: 9px;
     }
 
     .studio {
@@ -350,10 +352,10 @@
     }
 
     .team-title2 {
-        font-family: var(--font-family);
         font-weight: 700;
         font-size: 36px;
         letter-spacing: 0.03em;
         text-align: center;
         color: #212121;
+        margin-bottom: 50px;
     }

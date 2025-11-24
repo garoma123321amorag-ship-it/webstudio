@@ -52,19 +52,17 @@
         margin-top: 25px;
     }
 
-    .nav-header {
+    .header-nav {
         display: flex;
 
     }
 
-    .about-header {
+    .header-logo{
         font-weight: 700;
         font-size: 26px;
         letter-spacing: 0.03em;
-    }
-
-    .header-lin {
-        margin-left: 90px;
+        font-family: "Raleway" ;
+        margin-right: 90px;
     }
 
     .register-button {

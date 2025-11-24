@@ -57,11 +57,11 @@
 
     }
 
-    .header-logo{
+    .header-logo {
         font-weight: 700;
         font-size: 26px;
         letter-spacing: 0.03em;
-        font-family: "Raleway" ;
+        font-family: "Raleway";
         margin-right: 90px;
     }
 
@@ -187,6 +187,11 @@
 
     .about-title {
         margin-bottom: 10px;
+        font-weight: 700;
+        font-size: 14px;
+        letter-spacing: 0.03em;
+        text-transform: uppercase;
+        color: #212121;
     }
 
     .about-section {
@@ -308,7 +313,7 @@
         font-size: 26px;
         letter-spacing: 0.03em;
         color: #fff;
-        font-family: "Raleway" ;
+        font-family: "Raleway";
     }
 
     .end-address {

@@ -11,13 +11,14 @@
         margin-right: auto;
         /* outline: solid red; */
     }
-        .web {
+
+    .web {
         color: #2196f3;
         margin-bottom: 25px;
     }
 
 
-                                     /* header-section */
+    /* header-section */
 
 
 
@@ -66,19 +67,6 @@
     }
 
 
-
-
-    header .team-img {
-        font-weight: 500;
-        font-size: 16px;
-        letter-spacing: 0.03em;
-        text-align: center;
-        color: #212121;
-        margin-bottom: 30px;
-        height: 260px;
-        width: 270px;
-    }
-
     .header-gmail {
 
         font-weight: 500;
@@ -108,7 +96,7 @@
         letter-spacing: 0.03em;
     }
 
-                                             /* register-section */
+    /* register-section */
 
 
     .register-title {
@@ -165,7 +153,7 @@
         color: aquamarine;
     }
 
-                                         /* about-section */
+    /* about-section */
 
 
     .about-title {
@@ -204,7 +192,7 @@
         color: #212121;
     }
 
-                                         /* what_we_doing-section */
+    /* what_we_doing-section */
 
 
     .doing-title {
@@ -226,7 +214,8 @@
         color: #ffffff;
 
     }
-        .doing-list {
+
+    .doing-list {
         display: flex;
         gap: 30px;
     }
@@ -236,16 +225,16 @@
     }
 
 
-                                            /* team-section */
+    /* team-section */
 
-team    .team-title {
+    .team-title {
         font-weight: 500;
         font-size: 16px;
         letter-spacing: 0.03em;
         text-align: center;
         color: #212121;
     }
-    
+
     .team-text {
         margin-bottom: 30px;
         font-weight: 400;
@@ -272,7 +261,8 @@ team    .team-title {
         padding-bottom: 94px;
         padding-top: 94px;
     }
-        .team-title2 {
+
+    .team-title2 {
         font-weight: 700;
         font-size: 36px;
         letter-spacing: 0.03em;
@@ -280,7 +270,19 @@ team    .team-title {
         color: #212121;
         margin-bottom: 50px;
     }
-                                        /* end-section */
+    
+     .team-img {
+        font-weight: 500;
+        font-size: 16px;
+        letter-spacing: 0.03em;
+        text-align: center;
+        color: #212121;
+        margin-bottom: 30px;
+        height: 260px;
+        width: 270px;
+    }
+
+    /* end-section */
 
 
     .end-text {
@@ -357,8 +359,3 @@ team    .team-title {
     .studio {
         color: #fff;
     }
-
-
-
-
-

@@ -120,6 +120,9 @@
         flex-wrap: wrap;
         gap: 30px;
     }
+    .projects-item{
+        flex-basis: calc((100% - 2 * 30px) / 3);
+    }
 
 
 

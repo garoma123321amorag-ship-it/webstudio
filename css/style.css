@@ -171,6 +171,15 @@
         letter-spacing: 0.03em;
         color: #757575;
     }
+    .about-title::before{
+        content: "";
+        background-color: #F5F4FA;
+        background-image: url("../image/antenna.png"), url("../image/astronaut.png"), url("../image/clock.png"), url(../image/diagram.png);
+        width: 100px;
+        height: 100px;
+        display: block;
+        background-repeat: no-repeat;
+    }
 
     .about-list {
         display: flex;

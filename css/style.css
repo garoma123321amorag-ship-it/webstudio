@@ -146,9 +146,7 @@
 
     /* about-section */
 
-    .about-title::before{
-        
-    }
+    .about-title::before {}
 
     .about-title {
         margin-bottom: 10px;
@@ -171,14 +169,53 @@
         letter-spacing: 0.03em;
         color: #757575;
     }
-    .about-title::before{
+
+    .about-title-1::before {
         content: "";
-        background-color: #F5F4FA;
-        background-image: url("../image/antenna.png"), url("../image/astronaut.png"), url("../image/clock.png"), url(../image/diagram.png);
+        /* background-color: #F5F4FA; */
+        background-image: url("../image/antenna.png");
         width: 100px;
         height: 100px;
         display: block;
         background-repeat: no-repeat;
+        margin-left: 100px;
+        margin-right: 100px;
+    }
+
+    .about-title-2::before {
+        content: "";
+        /* background-color: #F5F4FA; */
+        background-image: url("../image/clock.png");
+        width: 100px;
+        height: 100px;
+        display: block;
+        background-repeat: no-repeat;
+        margin-left: 100px;
+        margin-right: 100px;
+    }
+
+    .about-title-3::before {
+        content: "";
+        /* background-color: #F5F4FA; */
+        background-image: url("../image/diagram.png");
+        width: 100px;
+        height: 100px;
+        display: block;
+        background-repeat: no-repeat;
+        margin-left: 100px;
+        margin-right: 100px;
+    }
+
+    .about-title-4::before {
+        content: "";
+        /* background-color: #F5F4FA; */
+        background-image: url("../image/astronaut.png");
+        width: 100px;
+        height: 100px;
+        display: block;
+        background-repeat: no-repeat;
+        margin-left: 100px;
+        margin-right: 100px;
     }
 
     .about-list {
@@ -273,8 +310,8 @@
         color: #212121;
         margin-bottom: 50px;
     }
-    
-     .team-img {
+
+    .team-img {
         font-weight: 500;
         font-size: 16px;
         letter-spacing: 0.03em;

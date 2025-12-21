@@ -116,6 +116,8 @@
         background-color: #2F303A;
         padding-top: 200px;
         padding-bottom: 200px;
+        background-image: url("../image/creation.png"), url("../image/overlay.jpg");
+
     }
 
     .register-conteiner {
@@ -288,6 +290,8 @@
 
     .team {
         background-color: #fff;
+        box-shadow: 0 2px 1px 0 rgba(0, 0, 0, 0.2), 0 1px 1px 0 rgba(0, 0, 0, 0.14), 0 1px 3px 0 rgba(0, 0, 0, 0.12);
+        background: #fff;
     }
 
     .team-list {
@@ -300,6 +304,7 @@
         background-color: #F5F4FA;
         padding-bottom: 94px;
         padding-top: 94px;
+
     }
 
     .team-title2 {
@@ -309,6 +314,7 @@
         text-align: center;
         color: #212121;
         margin-bottom: 50px;
+
     }
 
     .team-img {
@@ -321,6 +327,8 @@
         height: 260px;
         width: 270px;
     }
+
+ 
 
     /* end-section */
 

@@ -57,13 +57,29 @@
         color: #2196f3;
     }
 
+    .header-gmail:hover {
+        color: #2196f3;
+
+        .header-email {
+            fill: #2196f3;
+        }
+    }
+
 
     .header-gmail {
-
+        display: flex;
+        align-items: center;
+        gap: 10px;
         font-weight: 500;
         font-size: 14px;
         letter-spacing: 0.02em;
-        color: dodgerblue;
+        color: rgb(0, 0, 0);
+    }
+
+    .header-email {
+        width: 16px;
+        height: 12px;
+        fill: #000000;
     }
 
     .header-contact {
@@ -71,6 +87,23 @@
         font-size: 14px;
         letter-spacing: 0.02em;
         color: #757575;
+        display: flex;
+        align-items: center;
+        gap: 10px;
+    }
+
+    .header-smartphone {
+        height: 16px;
+        width: 10px;
+        fill: #757575;
+    }
+
+    .header-contact :hover {
+        color: #2196f3;
+
+        .header-smartphone {
+            fill: #2196f3;
+        }
     }
 
     .header-link {
@@ -158,6 +191,13 @@
         text-transform: uppercase;
         color: #212121;
     }
+
+    /* 
+     .about-li {
+        width: 270px;
+        height: 120px;
+        color: #F5F4FA;
+    }  */
 
     .about-section {
         padding-top: 94px;
@@ -288,6 +328,37 @@
 
     }
 
+    .team-icon-links {
+        display: flex;
+        gap: 15px;
+        justify-content: center;
+        margin-bottom: 44px;
+
+    }
+
+    .team-icon {
+        height: 20px;
+        width: 20px;
+        fill: #AFB1B8;
+    }
+
+    .team-icones {
+        width: 40px;
+        height: 40px;
+        border-radius: 50%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .team-icones:hover {
+        background-color: #2196F3;
+    }
+
+    .team-icon:hover {
+        fill: #FFFFFF;
+    }
+
     .team {
         background-color: #fff;
         box-shadow: 0 2px 1px 0 rgba(0, 0, 0, 0.2), 0 1px 1px 0 rgba(0, 0, 0, 0.14), 0 1px 3px 0 rgba(0, 0, 0, 0.12);
@@ -328,7 +399,61 @@
         width: 270px;
     }
 
- 
+    /* clients section */
+
+    .clients-title {
+        font-weight: 700;
+        font-size: 36px;
+        letter-spacing: 0.03em;
+        text-align: center;
+        color: #212121;
+        margin-top: 93px;
+        margin-bottom: 50px;
+    }
+
+    /* .clients-icon {
+        width: 106px;
+        height: 60px;
+        border: 1px solid #afb1b8;
+        border-radius: 4px;
+        box-sizing: content-box;
+        width: 170px;
+        height: 92px;
+        
+    } */
+    .clients-list {
+        display: flex;
+        gap: 30px;
+        margin-bottom: 94px;
+    }
+
+    .clients-icon {
+        width: 170px;
+        height: 92px;
+
+        border: 1px solid #afb1b8;
+        border-radius: 4px;
+
+        padding: 16px 32px;
+
+        box-sizing: border-box;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .clients-icon img {
+        width: 106px;
+        height: 60px;
+        display: block;
+    }
+
+    .clients-icon:hover {
+        fill: #2196F3;
+        border: 1px solid #2196F3;
+    }
+
+
 
     /* end-section */
 
@@ -375,6 +500,37 @@
         background-color: #2F303A;
         padding-top: 70px;
         padding-bottom: 70px;
+    }
+
+    .footer-icon-links {
+        display: flex;
+        gap: 15px;
+        justify-content: center;
+        height: 44px;
+        width: 206px;
+    }
+
+    .footer-icon {
+        height: 20px;
+        width: 20px;
+        fill: #AFB1B8;
+    }
+
+    .footer-icones {
+        width: 40px;
+        height: 40px;
+        border-radius: 50%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .footer-icones:hover {
+        background-color: #2196F3;
+    }
+
+    .footer-icon:hover {
+        fill: #FFFFFF;
     }
 
     .end-number {

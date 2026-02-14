@@ -318,7 +318,7 @@
     }
 
     .team-text {
-        margin-bottom: 30px;
+        margin-bottom: 16px;
         font-weight: 400;
         font-size: 16px;
         letter-spacing: 0.03em;
@@ -400,6 +400,10 @@
     }
 
     /* clients section */
+    .clients-section {
+        padding-top: 93px;
+        padding-bottom: 94px;
+    }
 
     .clients-title {
         font-weight: 700;
@@ -407,7 +411,6 @@
         letter-spacing: 0.03em;
         text-align: center;
         color: #212121;
-        margin-top: 93px;
         margin-bottom: 50px;
     }
 
@@ -424,7 +427,6 @@
     .clients-list {
         display: flex;
         gap: 30px;
-        margin-bottom: 94px;
         fill: #afb1b8;
     }
 

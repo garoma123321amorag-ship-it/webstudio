@@ -73,13 +73,13 @@
         font-weight: 500;
         font-size: 14px;
         letter-spacing: 0.02em;
-        color: rgb(0, 0, 0);
+        color: #757575;
     }
 
     .header-email {
         width: 16px;
         height: 12px;
-        fill: #000000;
+        fill: #757575;
     }
 
     .header-contact {
@@ -98,7 +98,7 @@
         fill: #757575;
     }
 
-    .header-contact :hover {
+    .header-contact:hover {
         color: #2196f3;
 
         .header-smartphone {
@@ -181,7 +181,7 @@
 
     /* about-section */
 
-    .about-title::before {}
+
 
     .about-title {
         margin-bottom: 10px;
@@ -353,11 +353,13 @@
 
     .team-icones:hover {
         background-color: #2196F3;
+
+        .team-icon {
+            fill: #FFFFFF;
+        }
     }
 
-    .team-icon:hover {
-        fill: #FFFFFF;
-    }
+
 
     .team {
         background-color: #fff;
@@ -400,6 +402,7 @@
     }
 
     /* clients section */
+
     .clients-section {
         padding-top: 93px;
         padding-bottom: 94px;
@@ -445,16 +448,24 @@
         justify-content: center;
     }
 
+    .clients-icon:hover {
+        border: 1px solid #2196F3;
+    }
+
     .clients-icon img {
         width: 106px;
         height: 60px;
         display: block;
     }
 
-    .clients-icon:hover {
-        fill: #2196F3;
-        border: 1px solid #2196F3;
+    .clients-icones:hover {
+        border-color: #2196f3;
     }
+
+    .clients-icones:hover .clients-icon {
+        fill: #2196f3;
+    }
+
 
 
 
@@ -505,9 +516,24 @@
         padding-bottom: 70px;
     }
 
+    .footer-display {
+        display: flex;
+        align-items: center;
+
+    }
+
+    .footer-text {
+        font-weight: 700;
+        font-size: 14px;
+        letter-spacing: 0.03em;
+        text-transform: uppercase;
+        color: #fff;
+        margin-bottom: 20px;
+    }
+
     .footer-icon-links {
         display: flex;
-        gap: 15px;
+        gap: 10px;
         justify-content: center;
         height: 44px;
         width: 206px;
@@ -516,7 +542,11 @@
     .footer-icon {
         height: 20px;
         width: 20px;
-        fill: #AFB1B8;
+        fill: #FFFFFF;
+    }
+
+    .footer-second-collon {
+        margin-left: 70px;
     }
 
     .footer-icones {
@@ -526,14 +556,21 @@
         display: flex;
         justify-content: center;
         align-items: center;
+        background-color: rgba(255, 255, 255, 0.1);
+        ;
+    }
+
+    .footer-icones {
+        fill: rgba(255, 255, 255, 0.1);
     }
 
     .footer-icones:hover {
         background-color: #2196F3;
-    }
 
-    .footer-icon:hover {
-        fill: #FFFFFF;
+        .footer-icon {
+            fill: #FFFFFF;
+        }
+
     }
 
     .end-number {

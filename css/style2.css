@@ -161,6 +161,7 @@
          display: flex;
          flex-wrap: wrap;
          gap: 30px;
+          outline: solid #757575;  
      }
 
      .projects-item {
@@ -168,6 +169,7 @@
          background-color: #fff;
          border: 1px solid #eeeeee;
          transition: box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
+        
 
      }
 
@@ -244,7 +246,7 @@
 
      .footer-display {
          display: flex;
-         align-items: center;
+         align-items: baseline;
 
      }
 

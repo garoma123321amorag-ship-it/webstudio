@@ -205,11 +205,11 @@
     }
 
     .about-tex {
-        font-weight: 400;
-        font-size: 14px;
-        line-height: 171%;
-        letter-spacing: 0.03em;
-        color: #757575;
+font-weight: 400;
+font-size: 14px;
+line-height: 171%;
+letter-spacing: 0.03em;
+color: #757575;
     }
 
     .about-title-1::before {
@@ -529,7 +529,7 @@
 
     .footer-display {
         display: flex;
-        align-items: center;
+        align-items: baseline;
 
     }
 

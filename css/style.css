@@ -150,7 +150,7 @@
         padding-top: 200px;
         padding-bottom: 200px;
         background-image: url("../image/creation.jpg");
-
+        background:linear-gradient(to left #2f303a);
     }
 
     .register-conteiner {
@@ -205,11 +205,11 @@
     }
 
     .about-tex {
-font-weight: 400;
-font-size: 14px;
-line-height: 171%;
-letter-spacing: 0.03em;
-color: #757575;
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 171%;
+        letter-spacing: 0.03em;
+        color: #757575;
     }
 
     .about-title-1::before {
@@ -583,7 +583,7 @@ color: #757575;
         border-radius: 50%;
         display: flex;
         justify-content: center;
-        align-items: baseline;
+        align-items: center;
         background-color: rgba(255, 255, 255, 0.1);
         ;
     }

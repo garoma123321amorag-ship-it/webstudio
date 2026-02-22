@@ -286,6 +286,17 @@
         margin-bottom: 50px;
     }
 
+    .doing-text {
+        font-weight: 700;
+        font-size: 14px;
+        letter-spacing: 0.03em;
+        text-transform: uppercase;
+        text-align: center;
+        color: #fff;
+        position: relative;
+        margin-bottom: 100px;
+    }
+
     .doing-title2 {
         font-weight: 900;
         font-size: 44px;
@@ -544,7 +555,8 @@
         width: 20px;
         fill: #FFFFFF;
     }
-        .footer-icon-links {
+
+    .footer-icon-links {
         display: flex;
         gap: 15px;
         justify-content: center;
@@ -552,7 +564,8 @@
 
 
     }
-        .footer-icon-links {
+
+    .footer-icon-links {
         display: flex;
         gap: 15px;
         justify-content: center;
@@ -570,7 +583,7 @@
         border-radius: 50%;
         display: flex;
         justify-content: center;
-        align-items: center;
+        align-items: baseline;
         background-color: rgba(255, 255, 255, 0.1);
         ;
     }

@@ -48,7 +48,7 @@
     <section class="register-section">
         <div class="conteiner register-conteiner">
             <h1 class="register-title">Ефективні рішення для вашого бізнесу</h1>
-            <button class="register-button">Замовити послугу</button>
+            <button data-modal-open class="register-button">Замовити послугу</button>
         </div>
     </section>
     <!-- about section -->
@@ -256,13 +256,22 @@
                                 </svg></a></li>
                     </ul>
                 </div>
+                <div class="footer-third-collon">
+                    <h3  class="footer-subscribe">Підпишіться на розсилку</h3>
+                    <form class="footer-form">
+                        <input class="footer-input" placeholder="E-mail" type="text">
+                        <button class="footer-button" type="submit">Підписатися <svg class="footer-send">
+                            <use href="./image/symbol-defs.svg#icon-icon-send"></use>
+                        </svg></button>
+                    </form>
+                </div>
             </div>
         </div>
 
     </footer>
-    <div class="backdrop">
+    <div data-modal class="backdrop is-hidden">
         <div class="model">
-            <button class="model-close" type="button"><svg class="model-icon">
+            <button data-modal-close class="model-close" type="button"><svg class="model-icon">
                 <use href="./image/symbol-defs.svg#icon-close_40px"></use>
             </svg></button>
             <h2 class="model-title">Залиште свої дані, ми вам передзвонимо</h2>
@@ -298,6 +307,7 @@
             </form>                                                                                                                                                         
         </div>
     </div>
+    <script type="module" src="./JavaScript/java.js"></script>
 </body>
 
 </html>

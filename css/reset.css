@@ -32,4 +32,10 @@ button {
     padding-right: 15px;
     margin-left: auto;
     margin-right: auto;
+    outline: 1px solid red;
+}
+
+img {
+    display: block;
+    width: 100%;
 }

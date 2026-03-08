@@ -20,7 +20,7 @@
         font-size: 14px;
         letter-spacing: 0.02em;
         color: #212121;
-
+        position: relative;
     }
 
     .list-header {
@@ -111,6 +111,23 @@
         font-size: 14px;
         letter-spacing: 0.02em;
         color: #212121;
+    }
+
+    .header-link::after {
+        content: "";
+        display: block;
+        width: 100%;
+        border-radius: 2px;
+        height: 4px;
+        background-color: #2196F3;
+        position: absolute;
+        left: 0;
+        bottom: -24px;
+        opacity: 0;
+    }
+
+    .header-link:hover::after {
+        opacity: 1;
     }
 
     .header-it {
@@ -212,52 +229,38 @@
         color: #757575;
     }
 
-    .about-title-1::before {
+    .about-li::before {
         content: "";
-        /* background-color: #F5F4FA; */
         background-image: url("../image/antenna.png");
-        width: 100px;
-        height: 100px;
+        background-color: #F5F4FA;
+        background-position: center;
+        border-radius: 4px;
+        width: 270px;
+        height: 120px;
         display: block;
         background-repeat: no-repeat;
-        margin-left: 100px;
-        margin-right: 100px;
+        margin-bottom: 30px;
     }
 
-    .about-title-2::before {
-        content: "";
-        /* background-color: #F5F4FA; */
+    .about-li:nth-child(2)::before {
         background-image: url("../image/clock.png");
-        width: 100px;
-        height: 100px;
-        display: block;
-        background-repeat: no-repeat;
-        margin-left: 100px;
-        margin-right: 100px;
     }
 
-    .about-title-3::before {
-        content: "";
-        /* background-color: #F5F4FA; */
+    .about-li:nth-child(3)::before {
         background-image: url("../image/diagram.png");
-        width: 100px;
-        height: 100px;
-        display: block;
-        background-repeat: no-repeat;
-        margin-left: 100px;
-        margin-right: 100px;
     }
 
-    .about-title-4::before {
-        content: "";
-        /* background-color: #F5F4FA; */
+    .about-li:nth-child(4)::before {
         background-image: url("../image/astronaut.png");
-        width: 100px;
-        height: 100px;
-        display: block;
-        background-repeat: no-repeat;
-        margin-left: 100px;
-        margin-right: 100px;
+    }
+
+    .about-title {
+        font-weight: 700;
+        font-size: 14px;
+        letter-spacing: 0.03em;
+        text-transform: uppercase;
+        color: #212121;
+        margin-bottom: 10px;
     }
 
     .about-list {
@@ -664,7 +667,8 @@
         gap: 10px;
         justify-content: center;
     }
-    .footer-send{
+
+    .footer-send {
         width: 24px;
         height: 24px;
         fill: #FFFFFF;

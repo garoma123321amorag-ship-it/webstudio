@@ -21,12 +21,15 @@
         letter-spacing: 0.02em;
         color: #212121;
         position: relative;
+        
+     
     }
 
     .list-header {
         align-items: center;
         gap: 50px;
         display: flex;
+
 
     }
 
@@ -55,10 +58,13 @@
 
     .header-link:hover {
         color: #2196f3;
+        
+
     }
 
     .header-gmail:hover {
         color: #2196f3;
+        
 
         .header-email {
             fill: #2196f3;
@@ -74,12 +80,14 @@
         font-size: 14px;
         letter-spacing: 0.02em;
         color: #757575;
+        
     }
 
     .header-email {
         width: 16px;
         height: 12px;
         fill: #757575;
+        
     }
 
     .header-contact {
@@ -111,6 +119,8 @@
         font-size: 14px;
         letter-spacing: 0.02em;
         color: #212121;
+        
+
     }
 
     .header-link::after {
@@ -124,6 +134,9 @@
         left: 0;
         bottom: -24px;
         opacity: 0;
+        transition-property: opacity, transform;
+        transition-duration: 250ms;
+        transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
     }
 
     .header-link:hover::after {
@@ -745,13 +758,15 @@
         width: 30px;
         height: 30px;
         border: none;
-        outline: 1px gray;
         display: flex;
         justify-content: center;
         align-items: center;
         position: absolute;
         top: 14px;
         right: 14px;
+        background-color: transparent;
+        outline: 1px solid rgba(128, 128, 128, 0.196);
+
     }
 
     .model-icon {

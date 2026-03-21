@@ -15,15 +15,15 @@
 
 
     .header-item {
-
         font-weight: 500;
         font-size: 14px;
         letter-spacing: 0.02em;
         color: #212121;
         position: relative;
-        
-     
+
     }
+
+
 
     .list-header {
         align-items: center;
@@ -58,13 +58,13 @@
 
     .header-link:hover {
         color: #2196f3;
-        
+
 
     }
 
     .header-gmail:hover {
         color: #2196f3;
-        
+
 
         .header-email {
             fill: #2196f3;
@@ -80,14 +80,14 @@
         font-size: 14px;
         letter-spacing: 0.02em;
         color: #757575;
-        
+
     }
 
     .header-email {
         width: 16px;
         height: 12px;
         fill: #757575;
-        
+
     }
 
     .header-contact {
@@ -98,12 +98,14 @@
         display: flex;
         align-items: center;
         gap: 10px;
+
     }
 
     .header-smartphone {
         height: 16px;
         width: 10px;
         fill: #757575;
+
     }
 
     .header-contact:hover {
@@ -119,9 +121,13 @@
         font-size: 14px;
         letter-spacing: 0.02em;
         color: #212121;
-        
+
+
+
 
     }
+
+
 
     .header-link::after {
         content: "";
@@ -162,6 +168,36 @@
         text-align: center;
         color: #ffffff;
         max-width: 696px;
+        animation-name: hello;
+        animation-duration: 4000ms;
+        animation-iteration-count: infinite;
+    }
+    @keyframes hello {
+
+        0% {
+            background-color: rgb(0, 17, 255);
+
+        }
+
+        25% {
+            background-color: rgb(0, 255, 13);
+
+        }
+
+        50% {
+            background-color: rgb(255, 230, 0);
+
+        }
+
+        75% {
+            background-color: red;
+
+        }
+
+        100% {
+            background-color: rgb(0, 17, 255);
+
+        }
     }
 
     .register-button {

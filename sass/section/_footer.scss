@@ -1,5 +1,9 @@
+.footer {
+    background-color: #2F303A;
+    padding-top: 70px;
+    padding-bottom: 70px;
 
-    .end-text {
+    &__text {
         font-weight: 400;
         font-size: 14px;
         line-height: 171%;
@@ -8,7 +12,8 @@
 
     }
 
-    .end-number {
+
+    &__number {
         font-weight: 400;
         font-size: 14px;
         line-height: 171%;
@@ -19,7 +24,7 @@
 
 
 
-    .end-webstudio {
+    &__web {
         font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
         font-weight: 700;
         font-size: 26px;
@@ -27,29 +32,17 @@
         color: #2196f3;
     }
 
-    .end-tex {
 
+
+    &__text {
         font-weight: 400;
         font-size: 14px;
         line-height: 171%;
         letter-spacing: 0.03em;
-        color: #757575;
-        margin-bottom: 9px;
+        color: rgba(255, 255, 255, 0.6);
     }
 
-    .end-footer {
-        background-color: #2F303A;
-        padding-top: 70px;
-        padding-bottom: 70px;
-    }
-
-    .footer-display {
-        display: flex;
-        align-items: baseline;
-
-    }
-
-    .footer-text {
+    &__texts {
         font-weight: 700;
         font-size: 14px;
         letter-spacing: 0.03em;
@@ -58,7 +51,16 @@
         margin-bottom: 20px;
     }
 
-    .footer-icon-links {
+
+
+    &__display {
+        display: flex;
+        align-items: baseline;
+
+    }
+
+
+    &__icon-links {
         display: flex;
         gap: 10px;
         justify-content: center;
@@ -66,13 +68,17 @@
         width: 206px;
     }
 
-    .footer-icon {
+
+
+    &__icon {
         height: 20px;
         width: 20px;
         fill: #FFFFFF;
     }
 
-    .footer-icon-links {
+
+
+    &__icon-links {
         display: flex;
         gap: 15px;
         justify-content: center;
@@ -81,7 +87,9 @@
 
     }
 
-    .footer-icon-links {
+
+
+    &__icon-links {
         display: flex;
         gap: 15px;
         justify-content: center;
@@ -89,11 +97,15 @@
 
     }
 
-    .footer-second-collon {
+
+
+    &__second-collon {
         margin-left: 70px;
     }
 
-    .footer-icones {
+
+
+    &__icones {
         width: 40px;
         height: 40px;
         border-radius: 50%;
@@ -101,28 +113,37 @@
         justify-content: center;
         align-items: center;
         background-color: rgba(255, 255, 255, 0.1);
-     transition-property: background-color;
-     transition-duration: 250ms;
+        transition-property: background-color;
+        transition-duration: 250ms;
     }
 
-    .footer-icones {
+
+
+
+    &__icones {
         fill: rgba(255, 255, 255, 0.1);
-    }
 
-    .footer-icones:hover {
-        background-color: #2196F3;
+        &:hover {
+            background-color: #2196F3;
 
-        .footer-icon {
-            fill: #FFFFFF;
+            .footer__icon {
+                fill: #FFFFFF;
+            }
+
         }
 
     }
 
-    .footer-third-collon {
+
+
+
+    &__third-collon {
         margin-left: auto;
     }
 
-    .footer-subscribe {
+
+
+    &__subscribe {
         font-weight: 700;
         font-size: 14px;
         letter-spacing: 0.03em;
@@ -131,13 +152,18 @@
         margin-bottom: 20px;
     }
 
-    .footer-form {
+
+
+
+    &__form {
         display: flex;
         align-items: center;
         gap: 12px;
     }
 
-    .footer-input {
+
+
+    &__input {
         border: 1px solid rgba(255, 255, 255, 0.3);
         border-radius: 4px;
         width: 358px;
@@ -151,7 +177,9 @@
         padding-left: 16px;
     }
 
-    .footer-button {
+
+
+    &__button {
         width: 200px;
         height: 50px;
         border-radius: 4px;
@@ -171,14 +199,17 @@
         justify-content: center;
     }
 
-    .footer-send {
+
+
+    &__send {
         width: 24px;
         height: 24px;
         fill: #FFFFFF;
     }
 
 
-    .end-number {
+
+    &__number {
         font-weight: 400;
         font-size: 14px;
         line-height: 171%;
@@ -187,7 +218,7 @@
 
     }
 
-    .end-studio {
+    &__studio {
         font-weight: 700;
         font-size: 26px;
         letter-spacing: 0.03em;
@@ -196,7 +227,7 @@
         margin-bottom: 20px;
     }
 
-    .end-address {
+    &__address {
         font-weight: 400;
         font-size: 14px;
         line-height: 171%;
@@ -206,6 +237,7 @@
         margin-bottom: 9px;
     }
 
-    .studio {
+    &__studio {
         color: #fff;
     }
+}

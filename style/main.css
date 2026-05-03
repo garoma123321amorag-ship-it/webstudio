@@ -262,16 +262,21 @@ body {
 
 .register-title {
   font-weight: 900;
-  font-size: 44px;
-  line-height: 136%;
+  font-size: 26px;
+  line-height: 162%;
   letter-spacing: 0.06em;
   text-transform: uppercase;
   text-align: center;
-  color: #ffffff;
-  max-width: 696px;
+  color: #fff;
   animation-name: hello;
   animation-duration: 4000ms;
   animation-iteration-count: infinite;
+}
+@media screen and (min-width: 1200px) {
+  .register-title {
+    font-size: 44px;
+    line-height: 136%;
+  }
 }
 
 @keyframes hello {

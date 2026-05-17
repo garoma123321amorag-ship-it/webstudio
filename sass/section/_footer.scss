@@ -1,230 +1,74 @@
 .footer {
     background-color: #2F303A;
-    padding-top: 70px;
-    padding-bottom: 70px;
+    padding-top: 60px;
+    padding-bottom: 60px;
 
-    &__text {
-        font-weight: 400;
-        font-size: 14px;
-        line-height: 171%;
-        letter-spacing: 0.03em;
-        color: rgba(255, 255, 255, 0.6);
-
+    @media screen and (min-width: 1200px) {
+        padding-top: 70px;
+        padding-bottom: 70px;
     }
-
-
-    &__number {
-        font-weight: 400;
-        font-size: 14px;
-        line-height: 171%;
-        letter-spacing: 0.03em;
-        color: #212121;
-
-    }
-
-
-
-    &__web {
-        font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-        font-weight: 700;
-        font-size: 26px;
-        letter-spacing: 0.03em;
-        color: #2196f3;
-    }
-
-
-
-    &__text {
-        font-weight: 400;
-        font-size: 14px;
-        line-height: 171%;
-        letter-spacing: 0.03em;
-        color: rgba(255, 255, 255, 0.6);
-    }
-
-    &__texts {
-        font-weight: 700;
-        font-size: 14px;
-        letter-spacing: 0.03em;
-        text-transform: uppercase;
-        color: #fff;
-        margin-bottom: 20px;
-    }
-
-
 
     &__display {
         display: flex;
-        align-items: baseline;
-
-    }
-
-
-    &__icon-links {
-        display: flex;
-        gap: 10px;
-        justify-content: center;
-        height: 44px;
-        width: 206px;
-    }
-
-
-
-    &__icon {
-        height: 20px;
-        width: 20px;
-        fill: #FFFFFF;
-    }
-
-
-
-    &__icon-links {
-        display: flex;
-        gap: 15px;
-        justify-content: center;
-        margin-bottom: 44px;
-
-
-    }
-
-
-
-    &__icon-links {
-        display: flex;
-        gap: 15px;
-        justify-content: center;
-        margin-bottom: 44px;
-
-    }
-
-
-
-    &__second-collon {
-        margin-left: 70px;
-    }
-
-
-
-    &__icones {
-        width: 40px;
-        height: 40px;
-        border-radius: 50%;
-        display: flex;
-        justify-content: center;
+        flex-direction: column;
         align-items: center;
-        background-color: rgba(255, 255, 255, 0.1);
-        transition-property: background-color;
-        transition-duration: 250ms;
-    }
+        text-align: center;
+        gap: 60px;
 
-
-
-
-    &__icones {
-        fill: rgba(255, 255, 255, 0.1);
-
-        &:hover {
-            background-color: #2196F3;
-
-            .footer__icon {
-                fill: #FFFFFF;
-            }
-
+        @media screen and (min-width: 768px) {
+            flex-direction: row;
+            flex-wrap: wrap;
+            align-items: baseline;
+            justify-content: center;
+            gap: 60px 0;
         }
 
+        @media screen and (min-width: 1200px) {
+            flex-wrap: nowrap;
+            justify-content: space-between;
+            gap: 0;
+        }
     }
 
-
-
-
-    &__third-collon {
-        margin-left: auto;
-    }
-
-
-
-    &__subscribe {
-        font-weight: 700;
-        font-size: 14px;
-        letter-spacing: 0.03em;
-        text-transform: uppercase;
-        color: #fff;
-        margin-bottom: 20px;
-    }
-
-
-
-
-    &__form {
+    &__first-collon {
         display: flex;
+        flex-direction: column;
         align-items: center;
-        gap: 12px;
-    }
 
+        @media screen and (min-width: 768px) {
+            width: calc(50% - 15px);
+        }
 
-
-    &__input {
-        border: 1px solid rgba(255, 255, 255, 0.3);
-        border-radius: 4px;
-        width: 358px;
-        height: 50px;
-        font-weight: 400;
-        font-size: 16px;
-        line-height: 125%;
-        letter-spacing: 0.03em;
-        color: rgba(255, 255, 255, 0.6);
-        background-color: transparent;
-        padding-left: 16px;
-    }
-
-
-
-    &__button {
-        width: 200px;
-        height: 50px;
-        border-radius: 4px;
-        width: 200px;
-        height: 50px;
-        font-weight: 700;
-        font-size: 16px;
-        line-height: 188%;
-        letter-spacing: 0.06em;
-        text-align: center;
-        color: #fff;
-        box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.15);
-        background: #2196f3;
-        display: flex;
-        align-items: center;
-        gap: 10px;
-        justify-content: center;
-    }
-
-
-
-    &__send {
-        width: 24px;
-        height: 24px;
-        fill: #FFFFFF;
-    }
-
-
-
-    &__number {
-        font-weight: 400;
-        font-size: 14px;
-        line-height: 171%;
-        letter-spacing: 0.03em;
-        color: #757575;
-
+        @media screen and (min-width: 1200px) {
+            width: auto;
+            align-items: flex-start;
+            text-align: left;
+        }
     }
 
     &__studio {
         font-weight: 700;
-        font-size: 26px;
+        font-size: 24px;
         letter-spacing: 0.03em;
         color: #fff;
         font-family: "Raleway";
         margin-bottom: 20px;
+
+        @media screen and (min-width: 1200px) {
+            font-size: 26px;
+        }
+    }
+
+    &__web {
+        font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+        font-weight: 700;
+        font-size: 24px;
+        letter-spacing: 0.03em;
+        color: #2196f3;
+
+        @media screen and (min-width: 1200px) {
+            font-size: 26px;
+        }
     }
 
     &__address {
@@ -237,7 +81,156 @@
         margin-bottom: 9px;
     }
 
-    &__studio {
+    &__text {
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 171%;
+        letter-spacing: 0.03em;
+        color: rgba(255, 255, 255, 0.6);
+        margin-bottom: 9px;
+    }
+
+    &__number {
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 171%;
+        letter-spacing: 0.03em;
+        color: #757575;
+    }
+
+    &__second-collon {
+        @media screen and (min-width: 768px) {
+            width: calc(50% - 15px);
+        }
+
+        @media screen and (min-width: 1200px) {
+            width: auto;
+            margin-left: 70px;
+            text-align: left;
+        }
+    }
+
+    &__texts {
+        font-weight: 700;
+        font-size: 14px;
+        letter-spacing: 0.03em;
+        text-transform: uppercase;
         color: #fff;
+        margin-bottom: 20px;
+    }
+
+    &__icon-links {
+        display: flex;
+        gap: 15px;
+        justify-content: center;
+    }
+
+    &__icones {
+        width: 40px;
+        height: 40px;
+        border-radius: 50%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-color: rgba(255, 255, 255, 0.1);
+        transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+        fill: rgba(255, 255, 255, 0.1);
+
+        &:hover, &:focus {
+            background-color: #2196F3;
+
+            .footer__icon {
+                fill: #FFFFFF;
+            }
+        }
+    }
+
+    &__icon {
+        height: 20px;
+        width: 20px;
+        fill: #FFFFFF;
+    }
+
+    &__third-collon {
+        width: 100%;
+        max-width: 450px;
+
+        @media screen and (min-width: 768px) {
+            width: 100%;
+            max-width: 570px;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+
+        @media screen and (min-width: 1200px) {
+            width: auto;
+            max-width: none;
+            margin-left: auto;
+            align-items: flex-start;
+        }
+    }
+
+    &__subscribe {
+        font-weight: 700;
+        font-size: 14px;
+        letter-spacing: 0.03em;
+        text-transform: uppercase;
+        color: #fff;
+        margin-bottom: 20px;
+    }
+
+    &__form {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 20px;
+        width: 100%;
+
+        @media screen and (min-width: 768px) {
+            flex-direction: row;
+            justify-content: center;
+            gap: 12px;
+        }
+    }
+
+    &__input {
+        border: 1px solid rgba(255, 255, 255, 0.3);
+        border-radius: 4px;
+        width: 100%;
+        max-width: 358px;
+        height: 50px;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 125%;
+        letter-spacing: 0.03em;
+        color: rgba(255, 255, 255, 0.6);
+        background-color: transparent;
+        padding-left: 16px;
+    }
+
+    &__button {
+        width: 200px;
+        height: 50px;
+        border-radius: 4px;
+        font-weight: 700;
+        font-size: 16px;
+        line-height: 188%;
+        letter-spacing: 0.06em;
+        text-align: center;
+        color: #fff;
+        box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.15);
+        background: #2196f3;
+        display: flex;
+        align-items: center;
+        gap: 10px;
+        justify-content: center;
+        flex-shrink: 0;
+    }
+
+    &__send {
+        width: 24px;
+        height: 24px;
+        fill: #FFFFFF;
     }
 }
